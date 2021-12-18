@@ -144,6 +144,12 @@
 	top: 0px;
 }
 
+.ms-slide .ms-slide-bgcont img {
+
+
+
+margin-left:0px;
+}
 
 .ms-inner-controls-cont, .ms-container {position: relative; margin:0 auto;}
 .ms-slide .ms-slide-bgcont img , .ms-container , .ms-inner-controls-cont{
