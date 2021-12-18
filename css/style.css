@@ -144,11 +144,17 @@ input[type="text"], input[type="email"], input[type="password"], textarea{
 	border: 0px; outline: none; padding: 6px; max-width: 100%; }
 
 /*--- transition / color animation  ---*/
+.ms-slide .ms-slide-bgcont img {
+margin-left:0px;
+}
+
 a{
 	transition: color 300ms, background-color 300ms, opacity 300ms;
 	-moz-transition: color 300ms, background-color 300ms, opacity 300ms;    /* FF3.7+ */
 	-o-transition: color 300ms, background-color 300ms, opacity 300ms;      /* Opera 10.5 */
 	-webkit-transition: color 300ms, background-color 300ms, opacity 300ms; /* Saf3.2+, Chrome */ }
+
+
 
 /*--- boxed style ---*/
 .body-wrapper{ overflow: hidden; }	
